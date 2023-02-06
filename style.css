@@ -1,0 +1,186 @@
+body {
+    margin : 0;
+}
+
+div, i {
+    box-sizing: border-box;
+}
+
+.box1 {
+    width : 100%;
+    height : 600px;
+    background: linear-gradient(skyblue, rgb(50, 50, 170));
+    padding-top : 1px;
+}
+
+.box1-text {
+    margin-top : 70px;
+    margin-left : 5%;
+}
+
+.box1-text h2 {
+    margin : 0px;
+    color : white;
+}
+
+.box1-text p {
+    margin : 0px;
+    color : white;
+}
+
+.box1-text button {
+    width : 100px;
+    height : 40px;
+    margin-top : 10px;
+
+    background : rgb(44, 44, 44);
+    color : white;
+    border : none;
+    border-radius : 5px;
+}
+
+.box1 img {
+    width : 400px;
+    position: absolute;
+    right : 15%;
+    bottom : 0px;
+}
+
+.box2 {
+    text-align: center;
+    margin-bottom : 50px;
+}
+
+.box2 h2 {
+    margin-top : 100px;
+}
+
+.box2 .portfolio {
+    width : 150px;
+    height : 40px;
+
+    background :rgb(44, 44, 44);
+    border-radius: 5px;
+    color : white;
+}
+
+.box3 {
+    text-align: center;
+    color : white;
+    background :rgb(50, 50, 170);
+    height : 400px;
+    padding-top : 1px;
+    margin-bottom: 50px;;
+}
+
+.box3 .servicebox {
+    justify-content: center;
+    display : flex;
+    width : 100%;
+    margin-bottom : 100px;
+}
+
+.box3 .servicebox .services {
+    margin : 20px;
+}
+
+.services i {
+    width : 100px;
+    height : 100px;
+    padding : 25px;
+    border-radius: 50px;;
+    background : white;
+    font-size : 50px;
+    color :rgb(50, 50, 170);
+}
+
+.box4 {
+    color : black;
+    text-align: center;
+}
+
+.imgtop2, .imgbottom2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.port1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('./img/portfolio-1.jpg') no-repeat;
+    width: 45%;
+    height: 30vw;
+    background-repeat: no-repeat;
+    background-size : cover;
+    transition : all 1s;
+}
+
+.port1:hover, .port2:hover, .port3:hover, .port4:hover{
+    border : 20px solid white;
+}
+
+.port2 {
+    background-image: url('./img/portfolio-2.jpg');
+    width: 45%;
+    height: 30vw;
+    background-repeat: no-repeat;
+    background-size : cover;
+    transition : all 1s ;
+}
+
+.port3 {
+    background-image: url('./img/portfolio-3.jpg');
+    width: 45%;
+    height: 30vw;
+    background-repeat: no-repeat;
+    background-size : cover;
+    transition : all 1s;
+}
+
+.port4 {
+    background-image: url('./img/portfolio-4.jpg');
+    width: 45%;
+    height: 30vw;
+    background-repeat: no-repeat;
+    background-size : cover;
+    transition : all 1s;
+}
+
+.fourimgbox {
+    color : white;
+    text-align: left;
+}
+
+.fourimgbox h3{
+    position : relative;
+    padding : 30px;
+}
+
+.fourimgbox p {
+    padding-left : 30px;
+}
+
+.box5 {
+    text-align: center;
+    margin-top : 40px;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.box5 i {
+    width : 60px;
+    height : 60px;
+    padding-top : 15px;
+    padding-left : 3px;
+    border-radius: 50px;
+    background :rgb(50, 50, 170);
+    font-size : 30px;
+    color : white;
+
+    margin : 20px;
+}
+
+.footer {
+    text-align: center;
+    letter-spacing: 2px;
+}
